@@ -9,12 +9,12 @@ Each folder contains a corresponding README file with instructions for execution
    - `run_Arabidopsis.py` is an example script that runs GCS on a specific gene from the Arabidopsis dataset.  
    - The example uses a pre-trained model (`model_Arabidopsis.pkl`) and saves the resulting exon, intron, and splice site scores in the `Example/` directory.
    - Due to the 100MB file size limit, only the Arabidopsis results are provided here. Results for other species can be downloaded via the following anonymous Figshare link:  
-     Human: https://figshare.com/s/cba533b5ae4879e263de
-     Mouse: https://figshare.com/s/402f5d01b280e1a7e910
-     Arabidopsis: https://figshare.com/s/34134aabbb1a0cf70ceb
-     Zebrafish: https://figshare.com/s/b1ea6c0cdba2241552c2
-     Moth: https://figshare.com/s/a3cbe1578e2ce1eeb09b
-     Fly: https://figshare.com/s/f9f410b44a43253507e6
+     - Human: https://figshare.com/s/cba533b5ae4879e263de
+     - Mouse: https://figshare.com/s/402f5d01b280e1a7e910
+     - Arabidopsis: https://figshare.com/s/34134aabbb1a0cf70ceb
+     - Zebrafish: https://figshare.com/s/b1ea6c0cdba2241552c2
+     - Moth: https://figshare.com/s/a3cbe1578e2ce1eeb09b
+     - Fly: https://figshare.com/s/f9f410b44a43253507e6
 
 ## Precision_results_with_k_1000 
    Contains evaluation scripts and output tables for exon, intron, and splice site precision on the Arabidopsis dataset using top-k parsing (k = 1000).  
